@@ -20,7 +20,8 @@
 #ifndef ADAFRUIT_SHT31_H
 #define ADAFRUIT_SHT31_H
 
-#include "Arduino.h"
+// #include "Arduino.h"
+#include <Particle.h>
 #include <Adafruit_I2CDevice.h>
 
 #define SHT31_DEFAULT_ADDR 0x44 /**< SHT31 Default Address */
@@ -43,8 +44,8 @@
 #define SHT31_HEATERDIS 0x3066    /**< Heater Disable */
 #define SHT31_REG_HEATER_BIT 0x0d /**< Status Register Heater Bit */
 
-extern TwoWire Wire; /**< Forward declarations of Wire for board/variant
-                        combinations that don't have a default 'Wire' */
+// extern TwoWire Wire; /**< Forward declarations of Wire for board/variant
+                        // combinations that don't have a default 'Wire' */
 
 /**
  * Driver for the Adafruit SHT31-D Temperature and Humidity breakout board.
