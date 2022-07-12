@@ -22,7 +22,7 @@
 
 // #include "Arduino.h"
 #include <Particle.h>
-#include <Adafruit_I2CDevice.h>
+#include <../src/Adafruit_BusIO/Adafruit_I2CDevice.h>
 
 #define SHT31_DEFAULT_ADDR 0x44 /**< SHT31 Default Address */
 #define SHT31_MEAS_HIGHREP_STRETCH                                             \
